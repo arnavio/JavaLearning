@@ -1,0 +1,23 @@
+package service;
+
+import org.lwjgl.opengl.Display;
+import java.awt.DisplayMode;
+
+public class DisplayManager {
+
+	public static void makeDisplay(){
+	
+		Display.setDisplayMode(new DisplayMode());
+		
+	}
+	
+	
+	public static void newDisplay(){
+		
+	}
+	
+	public static void stopDisplay(){
+		
+	}
+	
+}

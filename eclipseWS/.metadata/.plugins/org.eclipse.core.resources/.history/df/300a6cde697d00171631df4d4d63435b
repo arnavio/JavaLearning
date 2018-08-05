@@ -1,0 +1,21 @@
+package jrJava.loopString;
+
+import java.awt.Color;
+import java.awt.Graphics2D;
+import resources.DrawingBoard;
+
+public class ColorPalette {
+
+	public static void main(String[] args) {
+
+		DrawingBoard board = new DrawingBoard(0, 200, 700, 700);
+		Graphics2D canvas = board.getCanvas();
+
+		Color color= new Color(170, 0, 0);
+		canvas.setColor(color);
+		canvas.fillRect(50, 50, 30, 30);
+		
+		board.repaint();
+	}
+
+}

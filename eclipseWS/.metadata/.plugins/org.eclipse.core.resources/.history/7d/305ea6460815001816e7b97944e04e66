@@ -1,0 +1,29 @@
+package jrJava.graphics1_basic;
+
+import javax.swing.JFrame;
+
+public class MyGUI {
+
+	
+	
+	public MyGUI(){
+		
+		JFrame frame = new JFrame();
+		frame.setTitle("Arnav's GUI");
+		frame.setBounds(250, 200, 500, 400);
+		
+		frame.setVisible(true);
+	}
+	
+	
+	
+	
+	
+	
+	public static void main(String[]args) {
+		new	MyGUI();
+	}
+	
+	
+		
+}

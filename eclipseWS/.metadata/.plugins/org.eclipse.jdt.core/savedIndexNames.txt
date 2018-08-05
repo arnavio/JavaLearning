@@ -1,0 +1,27 @@
+INDEX VERSION 1.130+/Users/Arnav/Documents/JrJavaMacNeon/eclipseWS/.metadata/.plugins/org.eclipse.jdt.core
+2309822661.index
+278470590.index
+487047335.index
+1524350763.index
+518397319.index
+3598781151.index
+3637929226.index
+1260736551.index
+1683253099.index
+4018134042.index
+2070083738.index
+4158956476.index
+1882119724.index
+2718728712.index
+2961435131.index
+3969190818.index
+36932824.index
+2294275845.index
+2693195330.index
+609331307.index
+3939172986.index
+4166604845.index
+1522203103.index
+1271342938.index
+659411456.index
+357478278.index

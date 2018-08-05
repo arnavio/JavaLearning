@@ -1,0 +1,38 @@
+package jrJava.recursionSorting;
+
+public class QuickSort {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+	
+	
+	public static void sort(int[] data, int low, int high){
+		
+		if(low<=high) return;
+		
+		int pivot = data[(low+high)/2];
+		int i=low, j=high, temp;
+		
+		
+		while(data[i]<pivot) i++;
+		while(data[j]>pivot) j--;
+		
+		if(i<=j){
+			temp = data[i];
+			data[i] = data[j];
+			data[j] = temp;
+			i++;
+			j--;
+		}
+		
+		sort(data, low, j);
+		sort(data, i, high);
+		
+		
+	}
+	
+
+}

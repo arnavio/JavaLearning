@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;jrJava.sudying_string_1&apos; to &apos;jrJava.studying_string_1&apos;&#x0A;- Original project: &apos;Student&apos;&#x0A;- Original element: &apos;Student/jrJava.sudying_string_1&apos;&#x0A;- Renamed element: &apos;Student/jrJava.studying_string_1&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;jrJava.sudying_string_1&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/&lt;jrJava.sudying_string_1" name="jrJava.studying_string_1" qualified="false" references="true" stamp="1524012242779" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+package jrJava.graphics1_basic;
+
+import javax.swing.JFrame;
+
+public class MyGUI {
+
+	
+	
+	public MyGUI(){
+		
+		JFrame frame = new JFrame();
+	
+		frame.setVisible(true);
+	}
+	
+	
+	
+	
+	
+	
+	public static void main(String[]args) {
+		new	MyGUI();
+	}
+	
+	
+		
+}

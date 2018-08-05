@@ -1,0 +1,44 @@
+package jrJava.loopString;
+
+import java.awt.Color;
+import java.awt.Graphics2D;
+import resources.DrawingBoard;
+
+public class ColorPalette {
+
+	public static void main(String[] args) {
+
+		int screenSize = 700;
+		int numOfTiles = 30;
+		int margin = 50;
+		int tileSize = (screenSize-margin*2)/numOfTiles;
+		int colorIncrement = 255/numOfTiles;
+		int sleepTime = 5;
+		
+		DrawingBoard board = new DrawingBoard(0, 200, screenSize, screenSize);
+		Graphics2D canvas = board.getCanvas();
+
+
+		for(int i=0; i<numOfTiles; i++){
+
+			for(int j=0; j<numOfTiles; j++){
+			
+				Color color= new Color(0, colorIncrement*j, colorIncrement*i);
+				canvas.setColor(color);
+				canvas.fillRect(margin + i*tileSize, margin + tileSize*j, tileSize, tileSize);
+				canvas.setColor(Color.black);
+				board.repaint();
+				canvas.drawRect(50 + i*30, 50 + 30*j, 30, 30);
+				try {
+					Thread.sleep(sleepTime);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+			}
+		}
+	}
+
+
+	board.repaint();
+}
+
+}

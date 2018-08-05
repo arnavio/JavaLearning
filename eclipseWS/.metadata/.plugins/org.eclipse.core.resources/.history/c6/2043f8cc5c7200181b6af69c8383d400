@@ -1,0 +1,39 @@
+package jrJava.twoDimenArray;
+
+public class Practice1 {
+
+	public static void main(String[] args) {
+
+		int[][] a = new int[4][];
+
+		a[0] = new int[]{1, 2, 3};
+		a[1] = new int[]{11, 12, 13, 14};
+		a[2] = new int[]{21, 22};
+		a[3] = new int[]{31, 32, 33, 34, 35};
+
+		System.out.println(a[a.length-1][a[a.length-1].length-1]);
+		print(a);
+	}
+
+	public static void print(int[][] data){
+
+		if(data==null) return;
+
+		int i, j;
+
+		for(i=0; i< data.length; i++){
+
+			if(data[i]==null){		
+				System.out.println("null");
+				continue;
+			}
+			for(j=0; j<data.length; j++){
+				System.out.println(data[i][j] + " ");
+			}
+
+
+		}
+
+	}
+
+}

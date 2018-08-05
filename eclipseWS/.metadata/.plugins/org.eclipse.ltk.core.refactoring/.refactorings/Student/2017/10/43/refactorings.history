@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;jrJava.object6_obj_obj_interaction_2way&apos; to &apos;Student&apos;&#x0A;- Original project: &apos;Student&apos;&#x0A;- Destination element: &apos;Student&apos;&#x0A;- Original element: &apos;Student/jrJava.object6_obj_obj_interaction_2way&apos;" description="Copy package" destination="=Student" element1="/&lt;jrJava.object6_obj_obj_interaction_2way" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1509233006341" version="1.0"/>
+</session>

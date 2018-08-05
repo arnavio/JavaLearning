@@ -1,0 +1,16 @@
+package jrJava.basic;
+
+import resources.DrawingBoard;
+
+public class Practice1 {
+
+	
+	public static void main(String[] args) {
+		DrawingBoard board = new DrawingBoard(200, 50, 800, 600);
+
+		
+		
+		board.repaint();
+	}
+
+}

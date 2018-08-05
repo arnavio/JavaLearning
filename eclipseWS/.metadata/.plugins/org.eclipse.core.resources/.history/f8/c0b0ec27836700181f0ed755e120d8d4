@@ -1,0 +1,71 @@
+package jrJava.sorting_objects;
+
+public class ObjectSorter {
+
+	public static void main(String[] args) {
+		
+		Employee[] employees = Utility.loadEmployeeArrayFromFile("jrJava/sorting_objects/employee.txt");
+		Utility.print(employees);
+		//bubbleSort(employees);
+		//selectionSort(employees);
+		instertionSort(employees);
+		Utility.print(employees);
+	}
+
+	public static void selectionSort(Employee[] data){
+		Employee temp;
+		int i, j, minIndex; 
+	
+		for(i=0; i<data.length-1; i++){ 
+			minIndex = i;
+			for(j=i+1; j<data.length; j++){
+				if(data[minIndex].compareTo(data[j])>0) minIndex = j;
+			}
+			
+			temp = data[i];
+			data[i] = data[minIndex];
+			data[minIndex] = temp;
+		}
+		
+	}
+	
+	public static void instertionSort(Employee[] data){
+		
+		int i, j;
+		Employee temp;
+		for(i=1; i<data.length; i++){ // changing window from [0, 1] all the way to [0, length-1].
+			temp = data[i]; // data[i] is the new guy.
+			for(j=i-1; j>=0; j--){
+				if(data[j]>temp) data[j+1] = data[j];
+				else break;
+			}
+			data[j+1] =  temp;
+		}		
+	}
+	
+	public static void bubbleSort(Employee[] data){
+		int i;
+		Employee temp; 
+		boolean sorted = false;
+		
+		while(!sorted){ 
+			sorted = true; 
+			for(i=0; i<data.length-1; i++){
+				if(data[i].compareTo(data[i+1])>0){ // if(data[i+1].compareTo(data[i])<0){
+					sorted = false;
+					temp = data[i];
+					data[i] = data[i+1];
+					data[i+1] = temp;
+				}
+			}
+		}
+	}
+	
+	
+	
+}
+
+
+
+
+

@@ -1,0 +1,33 @@
+package jrJava.recursionSorting;
+
+import jrJava.sorting_selection.SelectionSorter;
+
+public class PerformanceTest {
+
+	public static void main(String[] args) {
+/*
+		int[] sample = Utility.createIntArray(1000000);
+		int[] sample2 = Utility.clone(sample);
+		
+		long t1 = System.currentTimeMillis();
+		MergeSort.sort(sample);
+		long t2 = System.currentTimeMillis();
+		System.out.println(t2-t1);
+		
+		SelectionSorter.sort(sample);
+		
+		MergeSort.sort(sample);
+		long t3 = System.currentTimeMillis();
+		System.out.println(t3-t2);
+		*/
+		
+		int[] sample = Utility.createIntArray(1000000);
+		
+		long t1 = System.currentTimeMillis();
+		QuickSort.sort(sample, 0, sample.length-1);
+		long t2 = System.currentTimeMillis();
+		System.out.println(t2-t1);
+		
+	}
+
+}

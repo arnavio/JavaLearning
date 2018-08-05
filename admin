@@ -1,0 +1,6 @@
+#1/bin/bash
+cp Documents/JrJavaMacNeon/symLink  Public/symLink
+echo "----------- symLink copied --------------"
+echo "----------- Open terminal and do --------"
+echo "----------- 1) su Admin -----------------"
+echo "----------- 2) bash symLink -------------"

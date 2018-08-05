@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;inheritance17_ObjectMethodsOverride&apos; to &apos;jrJava.inheritance17_ObjectMethodsOverride&apos;&#x0A;- Original project: &apos;Student&apos;&#x0A;- Original element: &apos;Student/inheritance17_ObjectMethodsOverride&apos;&#x0A;- Renamed element: &apos;Student/jrJava.inheritance17_ObjectMethodsOverride&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;inheritance17_ObjectMethodsOverride&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/&lt;inheritance17_ObjectMethodsOverride" name="jrJava.inheritance17_ObjectMethodsOverride" qualified="false" references="true" stamp="1518996772967" textual="false" version="1.0"/>
+</session>
